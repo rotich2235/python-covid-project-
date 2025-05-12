@@ -8,14 +8,12 @@ Data Source: Our World in Data - COVID-19 Dataset
 This notebook explores the global spread and response to the COVID-19 pandemic using real-world data. We'll focus on total cases, deaths, vaccination rollouts, and country comparisons. The goal is to derive insights and visualize key trends.
 
 **2. Data Collection & Loading**
-import pandas as pd
+| date       | location      | total\_cases | total\_deaths | new\_cases | total\_vaccinations | ... |
+| ---------- | ------------- | ------------ | ------------- | ---------- | ------------------- | --- |
+| 2021-01-01 | Kenya         | 96000        | 1800          | 320        | 0                   | ... |
+| 2021-01-01 | India         | 10250000     | 150000        | 16000      | 0                   | ... |
+| 2021-01-01 | United States | 20000000     | 350000        | 200000     | 3000000             | ... |
 
-# Load the dataset
-df = pd.read_csv('owid-covid-data.csv')
-
-# Display basic info
-print(df.shape)
-df.head()
 **3. Initial Exploration**
 # Check column names
 df.columns
