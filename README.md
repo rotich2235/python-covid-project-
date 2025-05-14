@@ -237,3 +237,4 @@ Death rates varied but stayed below 3% in all three countries.
 Vaccination uptake increased significantly after early 2021.
 **9. Conclusion**
 This analysis shows the importance of early and efficient vaccination rollout in managing the pandemic. The trends observed highlight differences in healthcare response, vaccine availability, and public policy across countries.
+
